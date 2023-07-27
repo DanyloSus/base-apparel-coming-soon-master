@@ -2,7 +2,7 @@ import React from "react";
 
 const Input = () => {
   return (
-    <form className=" flex mt-14 relative items-center mobile:mt-2">
+    <form className=" flex mt-14 relative items-center mobile:mt-2 anim">
       <input
         type="email"
         className=" border-solid border-dark-grayish-red border w-full opacity-70 py-4 px-5 rounded-full invalid:border-desaturated-red transition-all duration-500 ease-in-out invalid:border-[5px] mobile:py-2 mobile:text-sm mobile:invalid:border-[3px]"

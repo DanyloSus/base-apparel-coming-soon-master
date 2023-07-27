@@ -1,0 +1,22 @@
+.anim {
+  animation: logo-anim 1s ease-in-out both;
+}
+
+@keyframes logo-anim {
+  0% {
+    position: relative;
+    left: -20px;
+    opacity: 0;
+  }
+  100% {
+    left: 0;
+    opacity: 1;
+    position: relative;
+  }
+}
+
+@for $i from 1 through 3 {
+  *.anim:nth-child(#{$i}) {
+    animation-delay: #{$i/2}s;
+  }
+}
