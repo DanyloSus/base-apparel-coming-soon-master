@@ -18,6 +18,9 @@ export default {
           900: "hsl(0, 74%, 74%)",
         },
       },
+      screens: {
+        mobile: { max: "1005px" },
+      },
     },
   },
   plugins: [],
